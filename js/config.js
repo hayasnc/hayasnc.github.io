@@ -1,8 +1,8 @@
 const CONFIG = {
     personal: {
         name: 'Hayas Ismail',
-        title: 'Backend Engineer & AI Enthusiast',
-        tagline: 'Building robust backend systems and exploring AI frontiers',
+        title: 'Software Engineer | Consultant | Tech Leader',
+        tagline: 'Building Scalable Applications | Exploring AI for Smarter Solutions',
         email: 'hayasnc@gmail.com',
         copyright: '© 2025 Hayas Ismail. All rights reserved.'
     },
@@ -26,11 +26,10 @@ const CONFIG = {
     sections: {
         about: {
             title: 'About Me',
-            content: `I'm a passionate Backend Engineer with a growing fascination for Artificial Intelligence. While my core expertise lies in building scalable server-side applications, robust APIs, and efficient database architectures, I'm actively exploring and integrating AI technologies into my work. I'm particularly interested in how AI can enhance backend systems and create more intelligent, adaptive solutions for modern applications.`
-        },
+            content: 'I design and develop robust software solutions, focusing on building scalable backend systems and integrating AI to enhance functionality and efficiency. With a strong emphasis on security and performance, I create applications that deliver real business value. My approach combines problem-solving, innovation, and a commitment to crafting reliable, high-quality software that meets evolving technological and business needs.'        },
         technologies: {
             title: 'Technologies',
-            intro: 'Passionate about backend development and actively exploring the frontiers of AI technology.'
+            intro: ''
         }
     }
 };
