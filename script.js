@@ -5,9 +5,6 @@ function populateContent() {
     // Update page title
     document.getElementById('page-title').textContent = CONFIG.personal.name;
     
-    // Update navigation logo
-    document.getElementById('nav-logo').textContent = CONFIG.personal.name;
-    
     // Update hero section
     document.getElementById('hero-name').textContent = CONFIG.personal.name;
     document.getElementById('hero-title').textContent = CONFIG.personal.title;
@@ -18,22 +15,7 @@ function populateContent() {
     
     // Update technologies intro
     document.getElementById('tech-intro').textContent = CONFIG.sections.technologies.intro;
-    
-    // Update social links
-    const socialLinksContainer = document.getElementById('social-links');
-    Object.entries(CONFIG.social).forEach(([platform, data]) => {
-        const link = document.createElement('a');
-        link.href = data.url;
-        link.target = '_blank';
-        link.setAttribute('aria-label', data.label);
-        
-        const icon = document.createElement('i');
-        icon.className = data.icon;
-        
-        link.appendChild(icon);
-        socialLinksContainer.appendChild(link);
-    });
-    
+
     // Update copyright
     document.getElementById('copyright').textContent = CONFIG.personal.copyright;
 }
